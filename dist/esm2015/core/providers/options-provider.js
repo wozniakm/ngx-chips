@@ -1,0 +1,21 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { defaults } from '../../defaults';
+export class OptionsProvider {
+    /**
+     * @param {?} options
+     * @return {?}
+     */
+    setOptions(options) {
+        OptionsProvider.defaults.tagInput = Object.assign({}, defaults.tagInput, options.tagInput);
+        OptionsProvider.defaults.dropdown = Object.assign({}, defaults.dropdown, options.dropdown);
+    }
+}
+OptionsProvider.defaults = defaults;
+if (false) {
+    /** @type {?} */
+    OptionsProvider.defaults;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib3B0aW9ucy1wcm92aWRlci5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1jaGlwcy8iLCJzb3VyY2VzIjpbImNvcmUvcHJvdmlkZXJzL29wdGlvbnMtcHJvdmlkZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sRUFBRSxRQUFRLEVBQTRDLE1BQU0sZ0JBQWdCLENBQUM7QUFXcEYsTUFBTSxPQUFPLGVBQWU7Ozs7O0lBR2pCLFVBQVUsQ0FBQyxPQUFnQjtRQUM5QixlQUFlLENBQUMsUUFBUSxDQUFDLFFBQVEscUJBQU8sUUFBUSxDQUFDLFFBQVEsRUFBSyxPQUFPLENBQUMsUUFBUSxDQUFDLENBQUM7UUFDaEYsZUFBZSxDQUFDLFFBQVEsQ0FBQyxRQUFRLHFCQUFPLFFBQVEsQ0FBQyxRQUFRLEVBQUssT0FBTyxDQUFDLFFBQVEsQ0FBQyxDQUFDO0lBQ3BGLENBQUM7O0FBTGEsd0JBQVEsR0FBRyxRQUFRLENBQUM7OztJQUFsQyx5QkFBa0MiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBkZWZhdWx0cywgVGFnSW5wdXRPcHRpb25zLCBUYWdJbnB1dERyb3Bkb3duT3B0aW9ucyB9IGZyb20gJy4uLy4uL2RlZmF1bHRzJztcblxuZXhwb3J0IHR5cGUgT3B0aW9ucyA9IHtcbiAgICB0YWdJbnB1dD86IHtcbiAgICAgICAgW1AgaW4ga2V5b2YgVGFnSW5wdXRPcHRpb25zXT86IFRhZ0lucHV0T3B0aW9uc1tQXTtcbiAgICB9O1xuICAgIGRyb3Bkb3duPzoge1xuICAgICAgICBbUCBpbiBrZXlvZiBUYWdJbnB1dERyb3Bkb3duT3B0aW9uc10/OiBUYWdJbnB1dERyb3Bkb3duT3B0aW9uc1tQXTtcbiAgICB9XG59XG5cbmV4cG9ydCBjbGFzcyBPcHRpb25zUHJvdmlkZXIge1xuICAgIHB1YmxpYyBzdGF0aWMgZGVmYXVsdHMgPSBkZWZhdWx0cztcblxuICAgIHB1YmxpYyBzZXRPcHRpb25zKG9wdGlvbnM6IE9wdGlvbnMpOiB2b2lkIHtcbiAgICAgICAgT3B0aW9uc1Byb3ZpZGVyLmRlZmF1bHRzLnRhZ0lucHV0ID0gey4uLmRlZmF1bHRzLnRhZ0lucHV0LCAuLi5vcHRpb25zLnRhZ0lucHV0fTtcbiAgICAgICAgT3B0aW9uc1Byb3ZpZGVyLmRlZmF1bHRzLmRyb3Bkb3duID0gey4uLmRlZmF1bHRzLmRyb3Bkb3duLCAuLi5vcHRpb25zLmRyb3Bkb3dufTtcbiAgICB9XG59XG5cbmV4cG9ydCB7IFRhZ0lucHV0RHJvcGRvd25PcHRpb25zLCBUYWdJbnB1dE9wdGlvbnMgfTsiXX0=
